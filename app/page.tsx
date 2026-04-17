@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import PartnerBanner from "@/components/PartnerBanner";
 import Hero from "@/components/Hero";
 import Pains from "@/components/Pains";
 import HowItWorks from "@/components/HowItWorks";
@@ -16,6 +17,7 @@ import OfferPopup from "@/components/OfferPopup";
 export default function Home() {
   return (
     <>
+      <PartnerBanner />
       <Header />
       <main className="relative">
         <Hero />

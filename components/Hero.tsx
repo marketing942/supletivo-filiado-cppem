@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="topo"
-      className="relative overflow-hidden pt-28 pb-20 sm:pt-32 sm:pb-28"
+      className="relative overflow-hidden pt-36 pb-20 sm:pt-40 sm:pb-28"
     >
       <div className="absolute inset-0 bg-grid opacity-50" aria-hidden="true" />
       <div className="absolute inset-0 bg-radial-glow" aria-hidden="true" />

@@ -123,11 +123,14 @@ export default function Plans() {
           ))}
         </div>
 
-        <p className="mx-auto mt-8 max-w-2xl text-center text-xs text-white/50">
-          * Este supletivo é oferecido pela <strong>Estação Cursos</strong>. O{" "}
-          <strong>CPPem Concursos</strong> atua como parceiro oficial,
-          cuidando do seu atendimento e matrícula.
-        </p>
+        <div className="mx-auto mt-8 max-w-2xl rounded-xl border border-white/10 bg-white/[0.03] p-4 text-center text-sm text-white/65">
+          <strong className="text-white">Atenção:</strong> Este supletivo é um
+          produto da{" "}
+          <strong className="text-brand">Estação e Cursos</strong>. A{" "}
+          <strong className="text-white">Cppem Concursos</strong> é parceira
+          filiada oficial — cuidamos do seu atendimento, tiramos suas dúvidas
+          e fazemos sua matrícula junto à Estação e Cursos.
+        </div>
       </div>
     </section>
   );

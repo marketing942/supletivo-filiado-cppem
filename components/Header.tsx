@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS, WHATSAPP_URL } from "@/lib/constants";
 import { WhatsAppIcon, MenuIcon, CloseIcon } from "./icons";
@@ -32,16 +33,18 @@ export default function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <Link href="#topo" className="flex items-center gap-2" aria-label="CPPem Concursos">
-          <LionLogo className="h-9 w-9" />
-          <div className="leading-tight">
-            <span className="block text-lg font-black tracking-tight text-brand">
-              CPPem
-            </span>
-            <span className="block text-[10px] uppercase tracking-[0.2em] text-white/50">
-              Supletivo
-            </span>
-          </div>
+        <Link href="#topo" className="flex items-center gap-2" aria-label="Cppem Concursos">
+          <Image
+            src="/logo.svg"
+            alt="Cppem Concursos"
+            width={40}
+            height={48}
+            priority
+            className="h-10 w-auto"
+          />
+          <span className="block text-[10px] uppercase tracking-[0.2em] text-white/50">
+            Supletivo
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-7 lg:flex">
@@ -108,13 +111,3 @@ export default function Header() {
   );
 }
 
-function LionLogo({ className }: { className?: string }) {
-  return (
-    <div
-      className={`grid place-items-center rounded-full bg-brand text-ink-950 font-black ${className ?? ""}`}
-      aria-hidden="true"
-    >
-      <span className="text-lg">C</span>
-    </div>
-  );
-}

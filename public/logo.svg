@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 192" fill="none" role="img" aria-label="Cppem Concursos">
+  <!-- Main heart/teardrop body -->
+  <path d="M80 148
+    C62 130 18 108 12 76
+    C6 46 22 22 44 18
+    C54 15 64 20 68 27
+    C70 21 76 16 80 14
+    C84 16 90 21 92 27
+    C96 20 106 15 116 18
+    C138 22 154 46 148 76
+    C142 108 98 130 80 148Z"
+    fill="#39FF14"/>
+
+  <!-- Left horn -->
+  <path d="M46 20 C40 10 26 7 22 14 C18 21 27 30 38 27 C42 26 46 22 46 20Z"
+    fill="#39FF14"/>
+
+  <!-- Right horn -->
+  <path d="M114 20 C120 10 134 7 138 14 C142 21 133 30 122 27 C118 26 114 22 114 20Z"
+    fill="#39FF14"/>
+
+  <!-- Crown arc (face top boundary) -->
+  <path d="M44 72 Q80 56 116 72"
+    stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Left mane lines -->
+  <path d="M26 98 Q18 78 28 60"
+    stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M34 116 Q22 94 28 74"
+    stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Right mane lines -->
+  <path d="M134 98 Q142 78 132 60"
+    stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M126 116 Q138 94 132 74"
+    stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Left eye -->
+  <ellipse cx="60" cy="88" rx="11" ry="13" fill="white"/>
+  <ellipse cx="60" cy="88" rx="6" ry="8" fill="#39FF14"/>
+
+  <!-- Right eye -->
+  <ellipse cx="100" cy="88" rx="11" ry="13" fill="white"/>
+  <ellipse cx="100" cy="88" rx="6" ry="8" fill="#39FF14"/>
+
+  <!-- Nose -->
+  <path d="M71 107 Q80 116 89 107 L86 103 Q80 110 74 103Z" fill="white"/>
+
+  <!-- Mouth -->
+  <path d="M70 120 Q80 129 90 120"
+    stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Chin beard -->
+  <path d="M68 128 Q80 140 92 128 L89 124 Q80 134 71 124Z" fill="white"/>
+
+  <!-- Text: Cppem -->
+  <text x="80" y="180" text-anchor="middle"
+    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif"
+    font-weight="700" font-size="32" fill="#39FF14" letter-spacing="1">Cppem</text>
+</svg>

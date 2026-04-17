@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Supletivo Online em 90 Dias | CPPem Concursos",
+  title: "Supletivo Online em 90 Dias | Cppem Concursos",
   description:
     "Termine o Ensino Médio ou Fundamental + Médio em apenas 90 dias, 100% online e com certificado válido em todo o Brasil. Atendimento humano pelo WhatsApp.",
   keywords: [
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "ensino médio supletivo",
     "terminar ensino médio",
     "certificado MEC",
-    "CPPem Concursos",
+    "Cppem Concursos",
     "Estação Cursos",
   ],
   openGraph: {

@@ -37,8 +37,8 @@ const faqs = [
     a: "Sim. Você tem 7 dias de garantia para experimentar. Se não for para você, devolvemos o seu investimento.",
   },
   {
-    q: "O supletivo é da CPPem Concursos?",
-    a: "O supletivo é da Estação Cursos, uma empresa especialista em EJA. A CPPem Concursos é parceira oficial, responsável pelo seu atendimento e pela sua matrícula.",
+    q: "O supletivo é da Cppem Concursos?",
+    a: "O supletivo é da Estação Cursos, uma empresa especialista em EJA. A Cppem Concursos é parceira oficial, responsável pelo seu atendimento e pela sua matrícula.",
   },
   {
     q: "Posso parcelar no cartão?",
