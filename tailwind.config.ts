@@ -29,7 +29,16 @@ const config: Config = {
         },
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: [
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Segoe UI",
+          "Roboto",
+          "Helvetica Neue",
+          "Arial",
+          "system-ui",
+          "sans-serif",
+        ],
       },
       boxShadow: {
         glow: "0 0 40px rgba(57, 255, 20, 0.35)",
