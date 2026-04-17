@@ -35,12 +35,12 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link href="#topo" className="flex items-center gap-2" aria-label="Cppem Concursos">
           <Image
-            src="/logo.svg"
+            src="/logo-cppem.png"
             alt="Cppem Concursos"
-            width={40}
-            height={48}
+            width={96}
+            height={96}
             priority
-            className="h-10 w-auto"
+            className="h-11 w-11 object-contain"
           />
           <span className="block text-[10px] uppercase tracking-[0.2em] text-white/50">
             Supletivo

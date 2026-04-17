@@ -10,11 +10,11 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <Image
-                src="/logo.svg"
+                src="/logo-cppem.png"
                 alt="Cppem Concursos"
-                width={44}
-                height={52}
-                className="h-12 w-auto"
+                width={96}
+                height={96}
+                className="h-12 w-12 object-contain"
               />
               <div>
                 <p className="text-lg font-black text-brand">Cppem Concursos</p>
