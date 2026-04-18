@@ -28,8 +28,8 @@ export default function Hero() {
           </span>
 
           <h1 className="mt-6 text-4xl font-black leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            Termine o Ensino Médio em{" "}
-            <span className="text-gradient-brand">apenas 90 dias</span>
+            Termine o Ensino Fundamental + Médio em{" "}
+            <span className="text-gradient-brand">apenas 90 dias!</span>
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-white/75 sm:text-xl">
