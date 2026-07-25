@@ -9,6 +9,4 @@ export const WHATSAPP_MESSAGES = {
     "Olá! Tenho interesse no Supletivo Fundamental + Médio.",
 };
 
-export const NAV_LINKS = [
-  { href: "#faq", label: "Perguntas" },
-];
+export const NAV_LINKS: { href: string; label: string }[] = [];
