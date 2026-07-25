@@ -10,9 +10,5 @@ export const WHATSAPP_MESSAGES = {
 };
 
 export const NAV_LINKS = [
-  { href: "#como-funciona", label: "Como funciona" },
-  { href: "#beneficios", label: "Benefícios" },
-  { href: "#planos", label: "Planos" },
-  { href: "#disciplinas", label: "Disciplinas" },
   { href: "#faq", label: "Perguntas" },
 ];
