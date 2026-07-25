@@ -42,9 +42,6 @@ export default function Footer() {
               <WhatsAppIcon className="h-4 w-4" />
               Fale no WhatsApp
             </a>
-            <p className="mt-3 text-sm text-white/60">
-              Atendimento humano de segunda a sábado.
-            </p>
           </div>
 
           <div>
