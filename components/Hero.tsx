@@ -1,4 +1,4 @@
-import { WHATSAPP_URL } from "@/lib/constants";
+import LeadCtaButton from "./LeadCtaButton";
 import {
   WhatsAppIcon,
   CheckIcon,
@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <section
       id="topo"
-      className="relative overflow-hidden pt-36 pb-20 sm:pt-40 sm:pb-28"
+      className="relative overflow-hidden pt-48 pb-20 sm:pt-44 sm:pb-28"
     >
       <div className="absolute inset-0 bg-grid opacity-50" aria-hidden="true" />
       <div className="absolute inset-0 bg-radial-glow" aria-hidden="true" />
@@ -40,15 +40,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <LeadCtaButton
+              origin="hero"
               className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand px-8 py-4 text-base font-black text-ink-950 shadow-glow-lg transition hover:-translate-y-0.5 hover:bg-brand-400 sm:w-auto"
             >
               <WhatsAppIcon className="h-5 w-5" />
               Quero começar agora
-            </a>
+            </LeadCtaButton>
             <a
               href="#como-funciona"
               className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/15 bg-white/5 px-8 py-4 text-base font-semibold text-white transition hover:bg-white/10 sm:w-auto"

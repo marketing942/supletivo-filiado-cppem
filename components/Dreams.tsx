@@ -1,5 +1,5 @@
 import { SparkIcon, WhatsAppIcon } from "./icons";
-import { WHATSAPP_URL } from "@/lib/constants";
+import LeadCtaButton from "./LeadCtaButton";
 
 const dreams = [
   "Passar em um concurso público",
@@ -36,18 +36,16 @@ export default function Dreams() {
               <strong className="text-white">
                 “eu terminei meus estudos”
               </strong>{" "}
-              — e destravar portas que antes pareciam fechadas para sempre.
+              e destravar portas que antes pareciam fechadas para sempre.
             </p>
 
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <LeadCtaButton
+              origin="sonhos"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-sm font-black text-ink-950 shadow-glow transition hover:-translate-y-0.5 hover:bg-brand-400"
             >
               <WhatsAppIcon className="h-5 w-5" />
               Quero transformar minha vida
-            </a>
+            </LeadCtaButton>
           </div>
 
           <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">

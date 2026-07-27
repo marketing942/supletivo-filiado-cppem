@@ -43,7 +43,7 @@ export default function Subjects() {
           </h2>
           <p className="mt-4 text-white/70">
             Todas as matérias exigidas pelo MEC, explicadas de forma simples e
-            objetiva. Você não precisa ser especialista — as aulas foram feitas
+            objetiva. Você não precisa ser especialista, as aulas foram feitas
             para todo mundo entender.
           </p>
         </div>

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Estação Cursos",
   ],
   openGraph: {
-    title: "Termine seus estudos em 90 dias — Supletivo 100% online",
+    title: "Termine seus estudos em 90 dias | Supletivo 100% online",
     description:
       "Ensino Médio e Fundamental completos em 90 dias, de casa, com certificado válido em todo o Brasil.",
     type: "website",

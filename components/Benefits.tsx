@@ -23,7 +23,7 @@ const benefits = [
   {
     icon: PlayIcon,
     title: "Aulas gravadas em estúdio",
-    desc: "Conteúdo claro, didático e direto ao ponto — feito para quem quer aprender de verdade.",
+    desc: "Conteúdo claro, didático e direto ao ponto, feito para quem quer aprender de verdade.",
   },
   {
     icon: BookIcon,

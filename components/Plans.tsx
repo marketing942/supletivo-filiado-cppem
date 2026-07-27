@@ -1,5 +1,6 @@
-import { WHATSAPP_URL, WHATSAPP_MESSAGES } from "@/lib/constants";
+import { WHATSAPP_MESSAGES } from "@/lib/constants";
 import { CheckIcon, WhatsAppIcon, StarIcon } from "./icons";
+import LeadCtaButton from "./LeadCtaButton";
 
 const plans = [
   {
@@ -106,10 +107,9 @@ export default function Plans() {
                 ))}
               </ul>
 
-              <a
-                href={`${WHATSAPP_URL}?text=${encodeURIComponent(p.ctaMessage)}`}
-                target="_blank"
-                rel="noopener noreferrer"
+              <LeadCtaButton
+                message={p.ctaMessage}
+                origin={`plano-${p.name}`}
                 className={`mt-8 inline-flex items-center justify-center gap-2 rounded-full px-6 py-4 text-sm font-black transition ${
                   p.highlight
                     ? "bg-brand text-ink-950 shadow-glow hover:-translate-y-0.5 hover:bg-brand-400"
@@ -118,7 +118,7 @@ export default function Plans() {
               >
                 <WhatsAppIcon className="h-5 w-5" />
                 Falar com um consultor
-              </a>
+              </LeadCtaButton>
             </article>
           ))}
         </div>
@@ -128,7 +128,7 @@ export default function Plans() {
           produto da{" "}
           <strong className="text-brand">Estação e Cursos</strong>. A{" "}
           <strong className="text-white">Cppem Concursos</strong> é parceira
-          filiada oficial — cuidamos do seu atendimento, tiramos suas dúvidas
+          filiada oficial, cuidamos do seu atendimento, tiramos suas dúvidas
           e fazemos sua matrícula junto à Estação e Cursos.
         </div>
       </div>

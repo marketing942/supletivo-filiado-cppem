@@ -1,5 +1,4 @@
 import Header from "@/components/Header";
-import PartnerBanner from "@/components/PartnerBanner";
 import Hero from "@/components/Hero";
 import Pains from "@/components/Pains";
 import HowItWorks from "@/components/HowItWorks";
@@ -11,13 +10,12 @@ import Requirements from "@/components/Requirements";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
 import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import OfferPopup from "@/components/OfferPopup";
+import LeadProvider from "@/components/LeadCapture";
 
 export default function Home() {
   return (
-    <>
-      <PartnerBanner />
+    <LeadProvider>
       <Header />
       <main className="relative">
         <Hero />
@@ -32,8 +30,7 @@ export default function Home() {
         <FinalCta />
       </main>
       <Footer />
-      <FloatingWhatsApp />
       <OfferPopup />
-    </>
+    </LeadProvider>
   );
 }

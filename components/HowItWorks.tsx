@@ -9,7 +9,7 @@ const steps = [
   {
     icon: PlayIcon,
     title: "2. Assista às aulas gravadas",
-    desc: "Acesso imediato. Estude quando e onde quiser — pelo celular, computador ou tablet. No seu ritmo, sem pressão.",
+    desc: "Acesso imediato. Estude quando e onde quiser, pelo celular, computador ou tablet. No seu ritmo, sem pressão.",
   },
   {
     icon: BookIcon,
@@ -19,7 +19,7 @@ const steps = [
   {
     icon: CertificateIcon,
     title: "4. Receba seu certificado",
-    desc: "Em até 40 dias após a conclusão, o certificado chega em suas mãos — válido em todo o Brasil e reconhecido pelo MEC.",
+    desc: "Em até 40 dias após a conclusão, o certificado chega em suas mãos, válido em todo o Brasil e reconhecido pelo MEC.",
   },
 ];
 

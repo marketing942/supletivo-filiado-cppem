@@ -14,7 +14,7 @@ const faqs = [
   },
   {
     q: "Eu preciso ir em alguma escola presencial?",
-    a: "Não. Tudo é feito 100% online — aulas, materiais e avaliações. Você estuda de casa, no seu celular, computador ou tablet.",
+    a: "Não. Tudo é feito 100% online: aulas, materiais e avaliações. Você estuda de casa, no seu celular, computador ou tablet.",
   },
   {
     q: "E se eu não tiver tempo de estudar todo dia?",
@@ -60,7 +60,7 @@ export default function Faq() {
             Tirando suas <span className="text-gradient-brand">dúvidas</span>
           </h2>
           <p className="mt-4 text-white/70">
-            Se ainda ficar com alguma pergunta, chama a gente no WhatsApp — a
+            Se ainda ficar com alguma pergunta, chama a gente no WhatsApp, a
             resposta é rápida e humana.
           </p>
         </div>

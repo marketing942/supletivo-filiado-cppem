@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { WHATSAPP_URL } from "@/lib/constants";
+import LeadCtaButton from "./LeadCtaButton";
 import { WhatsAppIcon } from "./icons";
 
 export default function Footer() {
@@ -33,15 +33,13 @@ export default function Footer() {
             <p className="text-xs font-bold uppercase tracking-wider text-white/50">
               Atendimento
             </p>
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <LeadCtaButton
+              origin="rodape"
               className="mt-4 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-bold text-ink-950 shadow-glow transition hover:bg-brand-400"
             >
               <WhatsAppIcon className="h-4 w-4" />
               Fale no WhatsApp
-            </a>
+            </LeadCtaButton>
           </div>
 
           <div>

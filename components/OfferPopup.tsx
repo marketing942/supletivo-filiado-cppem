@@ -1,14 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { WHATSAPP_URL, WHATSAPP_MESSAGES } from "@/lib/constants";
+import { WHATSAPP_MESSAGES } from "@/lib/constants";
 import { CloseIcon, WhatsAppIcon, StarIcon, ClockIcon } from "./icons";
+import { useLeadCapture } from "./LeadCapture";
 
 const STORAGE_KEY = "cppem_popup_shown_v1";
 const DELAY_MS = 20_000;
 
 export default function OfferPopup() {
   const [open, setOpen] = useState(false);
+  const { openLeadForm } = useLeadCapture();
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -102,23 +104,24 @@ export default function OfferPopup() {
             Válido apenas enquanto as vagas de hoje durarem
           </div>
 
-          <a
-            href={`${WHATSAPP_URL}?text=${encodeURIComponent(WHATSAPP_MESSAGES.popup)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={() => setOpen(false)}
+          <button
+            type="button"
+            onClick={() => {
+              setOpen(false);
+              openLeadForm(WHATSAPP_MESSAGES.popup, "popup-oferta");
+            }}
             className="mt-7 inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand px-6 py-4 text-sm font-black text-ink-950 shadow-glow transition hover:-translate-y-0.5 hover:bg-brand-400 sm:text-base"
           >
             <WhatsAppIcon className="h-5 w-5" />
             Quero minha condição especial
-          </a>
+          </button>
 
           <button
             type="button"
             onClick={() => setOpen(false)}
             className="mt-3 text-xs font-medium text-white/50 underline-offset-4 transition hover:text-white/80 hover:underline"
           >
-            Não, obrigado — prefiro deixar para depois
+            Não, obrigado, prefiro deixar para depois
           </button>
         </div>
       </div>

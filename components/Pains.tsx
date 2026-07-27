@@ -15,7 +15,7 @@ const pains = [
   },
   {
     title: "Quer dar orgulho para sua família e seus filhos?",
-    desc: "Terminar os estudos é um dos maiores presentes que você pode dar para quem te ama — e para você.",
+    desc: "Terminar os estudos é um dos maiores presentes que você pode dar para quem te ama, e para você.",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function Pains() {
           </h2>
           <p className="mt-4 text-white/70">
             O mundo cobra um certificado para quase tudo. Mas não precisa ser
-            assim para sempre — a solução é mais simples do que você imagina.
+            assim para sempre, a solução é mais simples do que você imagina.
           </p>
         </div>
 

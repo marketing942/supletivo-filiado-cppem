@@ -1,4 +1,4 @@
-import { WHATSAPP_URL } from "@/lib/constants";
+import LeadCtaButton from "./LeadCtaButton";
 import { WhatsAppIcon, StarIcon } from "./icons";
 
 export default function FinalCta() {
@@ -22,19 +22,17 @@ export default function FinalCta() {
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-white/80 sm:text-lg">
               Fale com um consultor no WhatsApp. É rápido, humano e sem
-              compromisso — a gente te mostra como funciona e ainda pode
+              compromisso. A gente te mostra como funciona e ainda pode
               liberar uma condição especial para você começar hoje.
             </p>
             <div className="mt-8 flex justify-center">
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
+              <LeadCtaButton
+                origin="cta-final"
                 className="inline-flex items-center gap-3 rounded-full bg-brand px-8 py-4 text-base font-black text-ink-950 shadow-glow-lg transition hover:-translate-y-0.5 hover:bg-brand-400"
               >
                 <WhatsAppIcon className="h-5 w-5" />
                 Falar com consultor agora
-              </a>
+              </LeadCtaButton>
             </div>
             <p className="mt-4 text-xs text-white/55">
               Atendimento humano • Resposta rápida • Sem enrolação
