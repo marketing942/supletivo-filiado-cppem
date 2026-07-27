@@ -9,6 +9,18 @@ export const LEADS_SHEET = "SUPLETIVO";
 /** O Apps Script escolhe a aba pela query string (?aba=SUPLETIVO). */
 export const LEADS_URL = `${LEADS_ENDPOINT}?aba=${encodeURIComponent(LEADS_SHEET)}`;
 
+/**
+ * Loader first-party do container GTM server-side. O ID do container está
+ * embutido no path (/metrics/), por isso não há parâmetro `id=GTM-XXXX`.
+ */
+export const GTM_LOADER_URL = "https://sgtm.cppem.com.br/metrics/";
+
+/**
+ * ID do <form> de captação. É o identificador usado no painel da PixelX e
+ * precisa ser único na página e idêntico ao que está configurado lá.
+ */
+export const PIXELX_FORM_ID = "IPEyzyfmJhKQEYIXAlZH";
+
 export const WHATSAPP_MESSAGES = {
   default: "Olá! Quero saber mais sobre o Supletivo em 90 dias.",
   popup:
